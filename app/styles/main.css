@@ -1,70 +1,42 @@
-
-#sky {
+body{
+	background-color:rgb(255, 228, 156);
+}
+.scene {
+	margin: 0;
+	height: 2155px;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	
+   
+}
+.sky {
 	background: url(../images/Sky.jpg) 50% 0  no-repeat;
-	margin: 0;
-	height: 2155px;
-	position: absolute;
-	width: 100%;
-	top: 0;
-	left: 0;
+	height:1400px;
+	
 }
 
-#mountains {
-	background: url(../images/Mountains.png) 50% 0  no-repeat;
-	margin: 0;
-	height: 2155px;
-	position: absolute;
-	width: 100%;
-	top: 0;
-	left: 0;
+.mountains {
+	background: url(../images/Mountains2.png) 50% 0  no-repeat;
 }
 
-#hills {
-	background: url(../images/Hills.png) 50% 0  no-repeat;
-	margin: 0;
-	height: 2155px;
-	position: absolute;
-	width: 100%;
-	top: 0;
-	left: 0;
+.hills {
+	background: url(../images/Hills2.png) 50% 0  no-repeat;
 }
 
-#flowers {
-	background: url(../images/BackFlowers.png) 50% 0  no-repeat;
-	margin: 0;
-	height: 2155px;
-	position: absolute;
-	width: 100%;
-	top: 0;
-	left: 0;
+.flowers {
+	background: url(../images/BackFlowers2.png) 50% 0  no-repeat;
 }
 
-#cubeFlowers {
-	background: url(../images/CubeFlowers.png) 50% 0  no-repeat;
-	margin: 0;
-	height: 2155px;
-	position: absolute;
-	width: 100%;
-	top: 0;
-	left: 0;
+.cubeFlowers {
+	background: url(../images/CubeFlowers2.png) 50% 0  no-repeat;
 }
 
-#girl {
-	background: url(../images/Girl.png) 50% 0  no-repeat;
-	margin: 0;
-	height: 2155px;
-	position: absolute;
-	width: 100%;
-	top: 0;
-	left: 0;
+.girl {
+	background: url(../images/Girl2.png) 50% 0  no-repeat;
 }
 
-#frontCubes {
-	background: url(../images/FrontCubes.png) 50% 0  no-repeat;
-	margin: 0;
-	height: 2155px;
-	position: absolute;
-	width: 100%;
-	top: 0;
-	left: 0;
+.frontCubes {
+	background: url(../images/FrontCubes2.png) 50% 0  no-repeat;
 }

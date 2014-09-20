@@ -1,6 +1,9 @@
 body{
 	background-color:rgb(255, 228, 156);
 }
+.landscape{
+	padding-bottom:1800px;
+}
 .scene {
 	margin: 0;
 	height: 2155px;
@@ -19,14 +22,17 @@ body{
 
 .mountains {
 	background: url(../images/Mountains2.png) 50% 0  no-repeat;
+	height:1400px;
 }
 
 .hills {
 	background: url(../images/Hills2.png) 50% 0  no-repeat;
+	height:1400px;
 }
 
 .flowers {
 	background: url(../images/BackFlowers2.png) 50% 0  no-repeat;
+	height:1800px;
 }
 
 .cubeFlowers {
@@ -35,6 +41,7 @@ body{
 
 .girl {
 	background: url(../images/Girl2.png) 50% 0  no-repeat;
+	height:2000px;
 }
 
 .frontCubes {

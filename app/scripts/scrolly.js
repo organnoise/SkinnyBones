@@ -78,4 +78,3 @@
 
 })(jQuery, window, document);
 
-$('.parallax').scrolly();

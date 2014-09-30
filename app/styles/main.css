@@ -1,49 +1,100 @@
 body{
 	background-color:rgb(255, 228, 156);
 }
-.landscape{
-	padding-bottom:1800px;
+
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
-.scene {
-	margin: 0;
-	height: 2155px;
-	position: absolute;
-	width: 100%;
-	top: 0;
-	left: 0;
-	
-   
+.parallax__group {
+  position: relative;
+  height: 100vh;
+  transform-style: preserve-3d;
 }
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--1 {
+  transform: translateZ(-4px) scale(5);
+}
+.parallax__layer--2 {
+  transform: translateZ(-3.9px) scale(4.9);
+}
+.parallax__layer--3 {
+  transform: translateZ(-3.3px) scale(4.3);
+}
+.parallax__layer--4 {
+  transform: translateZ(-3px) scale(4);
+}
+.parallax__layer--5 {
+  transform: translateZ(-2.9px) scale(3.9);
+}
+
+
 .sky {
 	background: url(../images/Sky.jpg) 50% 0  no-repeat;
-	height:1400px;
+	
 	
 }
 
 .mountains {
 	background: url(../images/Mountains2.png) 50% 0  no-repeat;
 	height:1400px;
+	margin-top:200px;
 }
 
 .hills {
 	background: url(../images/Hills2.png) 50% 0  no-repeat;
 	height:1400px;
+	margin-top:100px;
 }
 
 .flowers {
 	background: url(../images/BackFlowers2.png) 50% 0  no-repeat;
 	height:1800px;
+	margin-top:650px;
 }
 
 .cubeFlowers {
 	background: url(../images/CubeFlowers2.png) 50% 0  no-repeat;
+	height:2000px;
+	margin-top:920px;
 }
 
 .girl {
 	background: url(../images/Girl2.png) 50% 0  no-repeat;
 	height:2000px;
+	margin-top:920px;
 }
 
 .frontCubes {
 	background: url(../images/FrontCubes2.png) 50% 0  no-repeat;
+	height:2000px;
+	margin-top:920px;
+}
+
+@media (max-width: 1000px){
+	.mountains {
+		background-position:90% -5%;
+	}
+	
+	.girl {
+		background-position:90% 20%;
+	}
+	.cubeFlowers {
+		background-position:90% 20%;
+	}
+	.frontCubes {
+		background-position:90% 20%;
+	}
 }

@@ -83,9 +83,9 @@ body{
 	margin-top:920px;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1100px){
 	.mountains {
-		background-position:90% -5%;
+		background-position:0% -5%;
 	}
 	
 	.girl {
@@ -97,4 +97,10 @@ body{
 	.frontCubes {
 		background-position:90% 20%;
 	}
+}
+@media (max-width: 700px){
+	.mountains {
+		background-position:100% -5%;
+	}
+	
 }

@@ -50,65 +50,61 @@ h1 {
 }
 
 .parallax__layer--1 {
-  transform: translateZ(-2px) scale(3);
+  transform: translateZ(-0.8px) scale(1.8);
 }
 .parallax__layer--2 {
-  transform: translateZ(-1.7px) scale(2.7);
+  transform: translateZ(-0.6px) scale(1.6);
 }
 .parallax__layer--3 {
-  transform: translateZ(-0.5px) scale(1.5);
+  transform: translateZ(-0.3px) scale(1.3);
 }
 .parallax__layer--4 {
   transform: translateZ(-0.2px) scale(1.2);
 }
 .parallax__layer--5 {
-  transform: translateZ(0);
+  transform: translateZ(0px) scale(1);
 }
 
+.scene {
+	height:2150px;
+}
 
 .sky {
 	background: url(../images/Sky.jpg) 50% 0  no-repeat;
 	height:1000px;
-	
 }
 
 .mountains {
 	background: url(../images/Mountains2.png) 50% 0  no-repeat;
-	
+	height:1000px;
 	
 }
 
 .hills {
 	background: url(../images/Hills2.png) 50% 0  no-repeat;
 	height:1400px;
-	
 }
 
 .flowers {
 	background: url(../images/BackFlowers2.png) 50% 0  no-repeat;
-	height:1800px;
-	
+	height:1500px;
 }
 
 .cubeFlowers {
 	background: url(../images/CubeFlowers2.png) 50% 0  no-repeat;
-	height:2000px;
-	
-	
-	
+	height:2150px;
 }
 
 .girl {
 	background: url(../images/Girl2.png) 50% 0  no-repeat;
 	height:2000px;
-	
 }
 
 .frontCubes {
 	background: url(../images/FrontCubes2.png) 50% 0  no-repeat;
 	height:2000px;
-	
 }
+
 @media (min-width: 1400px){
 	.skinny {
 		left: 50%;
@@ -119,9 +115,8 @@ h1 {
 }
 @media (max-width: 1100px){
 	.mountains {
-		background-position:0% -6%;
+		background-position:0% 0%;
 	}
-	
 	.girl {
 		background-position:90% 20%;
 	}
@@ -134,7 +129,12 @@ h1 {
 }
 @media (max-width: 700px){
 	.mountains {
-		background-position:100% -5%;
+		background-position:100% 5%;
 	}
 	
+}
+
+.info {
+	width:1400px;
+	background-color:#FF6E6E;
 }

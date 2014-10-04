@@ -24,7 +24,7 @@
 	<div id="Title">
 		<h1 class="skinny">skinny bones</h1>
 	</div>
-    <div class="parallax">
+    <div id="parallax" class="parallax">
 		<div class="parallax__group scene">
 			<div id="sky" class="sky parallax__layer parallax__layer--1"></div>
 			<div id="mountains" class="mountains parallax__layer parallax__layer--2"></div>
@@ -34,9 +34,18 @@
 			<div id="girl" class="girl parallax__layer parallax__layer--5"></div>
 			<div id="frontCubes" class="frontCubes parallax__layer parallax__layer--5"></div>
 		</div>
-		<div class="parallax__group info container">
+		<div id="info" class="parallax__group info container">
+			<div  class="row">
+				<div id="friend" class="replacementSkinny col-sm-6">
+				<h1>skinny bones</h1>
+				</div>
+				<div id="noiseFloor" class="col-sm-6" >
+				<h1 class="titleRight">// noise floor</h1>
+				</div>
+			</div>
 			<section class="container parallax__layer parallax__layer--5">
-				<h1>//noise floor</h1>
+				
+				
 			</section>
 		</div>
     </div>
@@ -75,7 +84,7 @@
         <!-- endbuild -->
 
         <!-- build:js({app,.tmp}) scripts/main.js -->
-		
+		<script src="scripts/main.js"></script>
         <!-- endbuild -->
 </body>
 </html>

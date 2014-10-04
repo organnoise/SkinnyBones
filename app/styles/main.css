@@ -30,6 +30,10 @@ h1 {
 	
 }
 
+.bones {
+	background-color:rgba(0,0,0,0.2);
+}
+
 .parallax {
   perspective: 1px;
   height: 100vh;
@@ -112,6 +116,18 @@ h1 {
 		z-index: 1;
 		width: 1400px;
 	}
+	
+	.info {
+		width: 1400px;
+	}
+	
+	
+}
+
+@media (max-width: 1400px){
+	.info {
+		width:100%;
+	}
 }
 @media (max-width: 1100px){
 	.mountains {
@@ -135,6 +151,21 @@ h1 {
 }
 
 .info {
-	width:1400px;
 	background-color:#FF6E6E;
+}
+
+.titleRight {
+	text-align:right;
+	opacity:0;
+	transition: all 0.8s ease;
+}
+
+.replacementSkinny {
+	z-index: 1;
+	padding-left: 40px;
+	opacity:0;
+}
+
+.notHidden {
+	opacity:1;
 }

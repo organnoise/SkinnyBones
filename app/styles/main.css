@@ -121,7 +121,6 @@ h1 {
 		width: 1400px;
 	}
 	
-	
 }
 
 @media (max-width: 1400px){
@@ -148,10 +147,20 @@ h1 {
 		background-position:100% 5%;
 	}
 	
+	.player {
+		width:100%;
+	}
+}
+
+@media (min-width: 700px){
+	.player {
+		width: 700px;
+	}
 }
 
 .info {
 	background-color:#FF6E6E;
+	height: 1000px;
 }
 
 .titleRight {
@@ -168,4 +177,13 @@ h1 {
 
 .notHidden {
 	opacity:1;
+}
+.playerRow {
+	text-align: center;
+	padding:100px 0px;
+}
+.player {
+	border: 0;  
+	height: 439px;
+	float:none;
 }

@@ -22,6 +22,11 @@ h1 {
 	font-size:60px;
 }
 
+#Title {
+	position: fixed;
+	z-index: 1;
+}
+
 .skinny {
 	position: fixed;
 	z-index: 1;
@@ -161,6 +166,10 @@ h1 {
 .info {
 	background-color:#FF6E6E;
 	height: 1000px;
+}
+
+#noiseFloor {
+	float: right;
 }
 
 .titleRight {

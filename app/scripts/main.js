@@ -1,7 +1,6 @@
 $(document).ready(function() {
 	
 	clipName();
-	console.log($(window).scrollTop());
 });
 
 function clipName() {

@@ -10,9 +10,15 @@
     font-style: normal;
 }
 
+html {
+	top:0%;
+	left:0%;
+}
+
 body{
 	background-color:rgb(255, 195, 76);
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 	 
 }
 
@@ -30,9 +36,7 @@ h1 {
 .skinny {
 	position: fixed;
 	z-index: 1;
-	width:1400px;
-	padding: 40px;
-	
+	width:1400px;	
 }
 
 .bones {
@@ -148,18 +152,29 @@ h1 {
 	}
 }
 @media (max-width: 700px){
+	.skinny {
+		padding-top:40px;
+	}
+	
 	.mountains {
 		background-position:100% 5%;
 	}
 	
 	.player {
-		width:100%;
+		width:75%;
 	}
 }
 
 @media (min-width: 700px){
 	.player {
 		width: 700px;
+	}
+	.skinny {
+		padding-top:40px;
+		padding-left:40px;
+	}
+	.replacementSkinny {
+		padding-left:40px;
 	}
 }
 
@@ -180,7 +195,6 @@ h1 {
 
 .replacementSkinny {
 	z-index: 1;
-	padding-left: 40px;
 	opacity:0;
 }
 

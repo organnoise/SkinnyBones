@@ -15,8 +15,11 @@ function clipName() {
     });
 }
 
+
 $(document).ready(function() {
 	
 	clipName();
+	
+	
 });
 

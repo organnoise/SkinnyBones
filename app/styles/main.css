@@ -53,7 +53,7 @@ h1 {
 }
 .parallax__group {
   position: relative;
-  height: 100vh;
+  /*height: 100vh;*/
   transform-style: preserve-3d;
 }
 .parallax__layer {
@@ -138,14 +138,14 @@ h1 {
 		width: 1400px;
 	}
 	
-	.info {
+	.info, .shows {
 		width: 1400px;
 	}
 	
 }
 
 @media (max-width: 1400px){
-	.info {
+	.info, .shows {
 		width:100%;
 	}
 }
@@ -206,7 +206,11 @@ h1 {
 
 .info {
 	background-color:#FF6E6E;
-	height: 1000px;
+}
+
+.shows {
+	background-color:#4EB4B4;
+	min-height:740px;
 }
 
 #noiseFloor {
@@ -235,3 +239,9 @@ h1 {
 	border: 0;  
 	float:none;
 }
+
+.calandar {
+	padding-left:15px;
+	padding-right:15px;
+}
+
